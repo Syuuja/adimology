@@ -26,7 +26,7 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
 
 function syncToken(token) {
   // Ganti YOUR_APP_DOMAIN dengan domain netlify Anda
-  const endpoint = `https://YOUR_APP_DOMAIN.netlify.app/api/update-token/${token}`;
+  const endpoint = `https://adimologykalkulatorsaham.netlify.app/api/update-token/${token}`;
 
   fetch(endpoint)
     .then((response) => {
